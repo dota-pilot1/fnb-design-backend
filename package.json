@@ -1,0 +1,16 @@
+{
+  "name": "fnb-design-backend",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "npm --prefix apps/api run start",
+    "start:dev": "npm --prefix apps/api run start:dev",
+    "start:debug": "npm --prefix apps/api run start:debug",
+    "build": "npm --prefix apps/api run build",
+    "lint": "npm --prefix apps/api run lint",
+    "test": "npm --prefix apps/api run test",
+    "db:generate": "npm --prefix apps/api run db:generate",
+    "db:migrate": "npm --prefix apps/api run db:migrate",
+    "db:push": "npm --prefix apps/api run db:push"
+  }
+}
